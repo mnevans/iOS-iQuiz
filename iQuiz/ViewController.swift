@@ -82,8 +82,5 @@ class ViewController: UIViewController {
         -> CGFloat {
             return indexPath.row == 0 ? 120 : 70
     }
-
-
-
 }
 
