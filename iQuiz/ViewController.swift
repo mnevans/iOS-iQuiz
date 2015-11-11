@@ -26,10 +26,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func settings(sender: UIBarButtonItem) {
-        let title = "Settings"
+        let title = "Settings go here"
         let controller = UIAlertController(title: title, message: nil,
             preferredStyle: .Alert)
-        let action = UIAlertAction(title: "Sounds good",
+        let action = UIAlertAction(title: "OK",
             style: .Default, handler: nil)
         controller.addAction(action)
         
