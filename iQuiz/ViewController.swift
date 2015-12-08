@@ -20,8 +20,7 @@ class ViewController: UIViewController {
             "Science" : ["What's the first color of the the color spectrum?", "What is the first element on the periodic table?", "What is the closest planet to the sun?"]]
     
 
-    private let answerList =
-    ["8 * 3": ["5", "24", "11"],
+    private let answerList = ["8 * 3": ["5", "24", "11"],
     "4 - 2": ["2", "6", "8"],
     "1 + 6": ["6", "5", "7"],
     "What is Spiderman's lovers name?" :["Mary Jane", "Janet Marie", "Helga"],
@@ -32,6 +31,8 @@ class ViewController: UIViewController {
     "What is the closest planet to the sun?": ["Mercury", "Earth", "Pluto"]]
     
     let cellTableIdentifier = "CellTableIdentifier"
+    
+    @IBOutlet weak var image: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,9 +68,9 @@ class ViewController: UIViewController {
                 cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: cellTableIdentifier)
             }
             
-            let image = UIImage(named: "8bit")
+            let image = UIImage(named: "image")
             cell!.imageView?.image = image
-            let highlightedImage = UIImage(named: "8bit")
+            let highlightedImage = UIImage(named: "image")
             cell!.imageView?.highlightedImage = highlightedImage
             
             cell!.textLabel?.text = subjects[indexPath.row]
@@ -94,7 +95,6 @@ class ViewController: UIViewController {
             let questionViewController = segue.destinationViewController as! QuestionViewController
             
             questionViewController.questions = problems!
-            questionViewController.answers = answerList
         }
     }
 }
