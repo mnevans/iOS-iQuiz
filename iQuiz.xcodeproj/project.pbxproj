@@ -15,6 +15,8 @@
 		20A7A1EE1BE9995A0028959F /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A7A1ED1BE9995A0028959F /* iQuizTests.swift */; };
 		20A7A1F91BE9995A0028959F /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A7A1F81BE9995A0028959F /* iQuizUITests.swift */; };
 		9D5D6C191C1780CC004E8ED8 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D6C181C1780CC004E8ED8 /* QuestionViewController.swift */; };
+		9D5D6C1B1C17884D004E8ED8 /* 8bit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D6C1A1C17884D004E8ED8 /* 8bit.png */; };
+		9D5D6C1D1C178881004E8ED8 /* 8bitspidey.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D6C1C1C178881004E8ED8 /* 8bitspidey.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		20A7A1F81BE9995A0028959F /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		20A7A1FA1BE9995A0028959F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D5D6C181C1780CC004E8ED8 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		9D5D6C1A1C17884D004E8ED8 /* 8bit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8bit.png; path = ../../../Documents/8bit.png; sourceTree = "<group>"; };
+		9D5D6C1C1C178881004E8ED8 /* 8bitspidey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8bitspidey.png; path = ../../../Documents/8bitspidey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				20A7A1DA1BE999590028959F /* ViewController.swift */,
 				9D5D6C181C1780CC004E8ED8 /* QuestionViewController.swift */,
 				20A7A1DC1BE999590028959F /* Main.storyboard */,
+				9D5D6C1C1C178881004E8ED8 /* 8bitspidey.png */,
+				9D5D6C1A1C17884D004E8ED8 /* 8bit.png */,
 				20A7A1DF1BE999590028959F /* Assets.xcassets */,
 				20A7A1E11BE999590028959F /* LaunchScreen.storyboard */,
 				20A7A1E41BE999590028959F /* Info.plist */,
@@ -234,6 +240,8 @@
 			files = (
 				20A7A1E31BE999590028959F /* LaunchScreen.storyboard in Resources */,
 				20A7A1E01BE999590028959F /* Assets.xcassets in Resources */,
+				9D5D6C1D1C178881004E8ED8 /* 8bitspidey.png in Resources */,
+				9D5D6C1B1C17884D004E8ED8 /* 8bit.png in Resources */,
 				20A7A1DE1BE999590028959F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -32,7 +32,7 @@
                                 <rect key="frame" x="0.0" y="72" width="375" height="595"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="cUz-Ji-L0q">
+                                <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8bitspidey.png" highlightedImage="8bit.png" id="cUz-Ji-L0q">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
@@ -55,4 +55,8 @@
             <point key="canvasLocation" x="442.5" y="304.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="8bit.png" width="375" height="360"/>
+        <image name="8bitspidey.png" width="405" height="398"/>
+    </resources>
 </document>
